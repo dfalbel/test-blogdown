@@ -1,0 +1,47 @@
+]0;~/Documents/test[?1034hDaniels-MacBook-Air:test dfalbel$ [KDaniels-MacBook-Air:test dfalbel$ [KDaniels-MacBook-Air:test dfalbel$ git remote add origin https://github.com/dfalbel/test-blogdown.git
+fatal: Not a git repository (or any of the parent directories): .git
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ git init
+Initialized empty Git repository in /Users/dfalbel/Documents/test/.git/
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mpublic/[m
+	[31mstatic/[m
+	[31mtest.Rproj[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ git remote add origin https://github.com/dfalbel/test-blogdown.git
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/dfalbel/test-blogdown.git'
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ [KDaniels-MacBook-Air:test dfalbel$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mconfig.toml[m
+	[31mcontent/[m
+	[31mindex.Rmd[m
+	[31mpublic/[m
+	[31mstatic/[m
+	[31mtest.Rproj[m
+	[31mthemes/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Documents/testDaniels-MacBook-Air:test dfalbel$ git add -A

@@ -1,0 +1,9 @@
+{
+    "path" : "~/Documents/test/content/post",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
